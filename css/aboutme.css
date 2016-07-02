@@ -1,0 +1,51 @@
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+}
+
+body,
+div,
+p,
+h1,
+h2,
+a {
+	padding:0;
+	margin:0;
+	font-family: "Avenir";
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 14px;
+	color: rgba(230,230,230,0.7);
+	line-height: 20px;
+	margin-left: 11%;
+	margin-right: 11%;
+	margin-top: 5%;
+}
+
+h2 {
+	font-size: 12px;
+	color: rgba(230,230,230,0.7);
+	line-height: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	margin-top: 2%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+p {
+	padding: 7px;
+}

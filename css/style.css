@@ -1,0 +1,224 @@
+body {
+	background-color: rgb(10,10,10);
+}
+
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+	padding:0;
+	margin:0;
+	font-family: "Avenir";
+	font-weight: normal;
+}
+
+.unselectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#sketch {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+canvas {
+	top: 0;
+	left: 0;
+	outline: none;
+	display: block;
+	overflow: auto;
+	-webkit-tap-highlight-color: rgba(0, 0);
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4%;
+}
+
+#header {
+	background-color: rgba(30,50,10,0.8);
+	padding: 5px;
+}
+
+#menuSpace {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background-color: rgba(30,50,10,0.6);
+}
+
+#aboutme, #softwareProj, #videoProj {
+	float: left;
+	line-height: 25px;
+	padding-left: 5px;
+}
+
+#clickawaySpace {
+	display: block;
+	overflow: auto;
+	position: relative;
+	height: 100%;
+}
+
+#icons {
+	float: right;
+	margin-right: 5%;
+}
+
+a {
+	color: rgba(230,230,230,0.6);
+	font-size: 13px;
+	text-decoration: none;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+a:hover {
+	color: rgba(240,240,240,0.9);
+	cursor: pointer;
+}
+
+a:focus {
+	outline: 0;
+}
+
+#menuButton {
+	width: 60px;
+	height: 30px;
+	
+	background-color: transparent;
+	color: rgba(230,230,230,0.6);
+	font-size: 12px;
+	border: 0px;
+}
+
+#menuButton:focus {
+	outline: 0;
+}
+
+#aboutmeSpace, #softwareSpace, #videoSpace {
+	display: none;
+	position: fixed;
+	top: 8%;
+	left: 1%;
+	right: 1%;
+	width: 98%;
+	height: 75%;
+	background-color: rgba(10,10,10,0.9);
+}
+
+#footer {
+	background-color: rgba(30,50,10,0.8);
+	text-align: right;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+
+h1 {
+	font-size: 16px;
+	color: rgba(230,230,230,0.9);
+	line-height: 40px;
+	padding: 0px 5%;
+}
+
+h2 {
+	font-size: 13px;
+	color: rgba(230,230,230,0.6);
+	line-height: 20px;
+	padding: 0px 5%;
+	margin-bottom: 10px;
+}
+
+.my-fa-linkedin:before {
+	content: "\f0e1";
+}
+
+.my-fa-github:before {
+	content: "\f09b";
+}
+
+.my-fa-vimeo:before {
+	content: "\f27d";
+}
+
+.my-fa-envelope-o:before {
+	content: "\f003";
+}
+
+#picSpace {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	border: none;
+	text-align: center;
+}
+
+#closePicSpace, #nextPic, #prevPic {
+	color: rgba(230,230,230,0.6);
+}
+
+#closePicSpace {
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-left: 95%;
+	float: right;
+}
+
+#nextPic {
+	text-align: right;
+	float: right;
+	margin-right: 5%;
+	margin-top: 20%;
+}
+
+#prevPic {
+	text-align: left;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20%;
+}
+
+
+#closePicSpace:hover , #nextPic:hover, #prevPic:hover{
+	color: rgba(240,240,240,0.9);
+	cursor: pointer;
+}
+
+#pics {
+	height: auto;
+	width: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+img {
+	display: none;
+	max-width: 600px;
+	max-height: 480px;
+	width: 100%;
+	height: 100%;
+}

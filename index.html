@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Sarah Whitley</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/icon_sm.png">
+	<meta name="viewport" content="initial-scale=1 width=device-width user-scalable=no">
+	<script src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/processing.min.js"></script>
+	<script type="text/javascript" src="js/shared.js"></script>
+	<script type="text/javascript" src="js/helper.js"></script>
+	<script src="https://use.fontawesome.com/b05d8981ef.js"></script>
+</head>
+
+<body>
+
+	<div id="sketch">
+		<canvas id="canvasSketch" class="unselectable" data-processing-sources="frontPage/frontPage.pde frontPage/square.pde frontPage/ampFollower.pde"></canvas>
+	</div>
+
+	<div id="main">
+		
+		<div id="menu">
+			<div id="menuSpace">
+				<a id="aboutme" target="aboutmeContent">about me</a> <!--<i class="fa fa-info-circle fa-lg"></i></a>-->
+				<a id="softwareProj" target="softwareContent">software</a>
+				<a id="videoProj" target="videoContent">art</a>
+				<div id="icons">
+        			<a href="https://www.linkedin.com/in/sarahwhitley"><i class="fa my-fa-linkedin fa-lg"></i></a>
+        			<a href="https://github.com/flyingSarah"><i class="fa my-fa-github fa-lg"></i></a>
+        			<a href="https://vimeo.com/sarahhowe"><i class="fa my-fa-vimeo fa-lg"></i></a>
+        			<a href="mailto:sarah@swhitley.com"><i class="fa my-fa-envelope-o fa-lg"></i></a>
+        		</div>
+        		<span id="clickawaySpace" class="unselectable">&nbsp</span>
+			</div>
+		</div>
+		
+		<div id="aboutmeSpace">
+			<iframe id="aboutmeContent" src="aboutme.html" width="100%" height="100%" frameBorder="0" scrolling=no></iframe>
+		</div>
+		<div id="softwareSpace">
+			<iframe id="softwareContent" src="software.html" width="100%" height="100%" frameBorder="0" scrolling=no></iframe>
+		</div>
+		<div id="videoSpace">
+			<iframe id="videoContent" src="video.html" width="100%" height="100%" frameBorder="0" scrolling=no></iframe>
+		</div>
+		
+		<div id="footer">
+			<h1>Sarah Whitley</h1>
+			<h2>Software Developer / Video Artist</h2>
+		</div>
+		
+		<div id="picSpace">
+			<i id="closePicSpace" class="fa fa-times fa-lg"></i><br>
+			<i id="prevPic" class="fa fa-chevron-left fa-lg"></i>
+			<i id="nextPic" class="fa fa-chevron-right fa-lg"></i>
+				
+			<div id="pics">
+				<img class="pic_1" data-src="images/abstract2.jpg" alt="Abstract 2" width="600" height="480">
+				<img class="pic_2" data-src="images/abstract3.jpg" alt="Abstract 3" width="600" height="480">
+				<img class="pic_3" data-src="images/messypinkyellow.jpg" alt="Messy Pink Yellow" width="600" height="480">
+				<img class="pic_4" data-src="images/yellowboxes.jpg" alt="Yellow Boxes" width="600" height="480">
+				<img class="pic_5" data-src="images/trapezesquares.jpg" alt="Trapeze Squares" width="600" height="480">
+				<img class="pic_6" data-src="images/pinkstar.jpg" alt="Pink Star" width="600" height="480">
+				<img class="pic_7" data-src="images/pinkmonroe.jpg" alt="Pink Monroe" width="600" height="480">
+				<img class="pic_8" data-src="images/pinkstar-trapeze.jpg" alt="Pink Star Trapeze" width="600" height="480">
+				<img class="pic_9" data-src="images/mirrorpetals.jpg" alt="Mirror Petals" width="600" height="480">
+				<img class="pic_10" data-src="images/makeup.jpg" alt="Makeup" width="600" height="480">
+				<img class="pic_11" data-src="images/makeup3.jpg" alt="Makeup 3" width="600" height="480">
+				<img class="pic_12" data-src="images/makeup2.jpg" alt="Makeup 2" width="600" height="480">
+				<img class="pic_13" data-src="images/sugarskull.jpg" alt="Sugar Skull" width="600" height="480">
+				<img class="pic_14" data-src="images/sugarskull2.jpg" alt="Sugar Skull 2" width="600" height="480">
+				<img class="pic_15" data-src="images/fandancer.jpg" alt="Fan Dancer" width="600" height="480">
+				<img class="pic_16" data-src="images/stripesmile.jpg" alt="Stripe Smile" width="600" height="480">
+				<img class="pic_17" data-src="images/standingpair.jpg" alt="Standing Pair" width="600" height="480">
+				<img class="pic_18" data-src="images/handbalancing.jpg" alt="Hand Balancing" width="600" height="480">
+				<img class="pic_19" data-src="images/lyrayellow.jpg" alt="Lyra Yellow" width="600" height="480">
+				<img class="pic_20" data-src="images/grid.jpg" alt="Grid" width="90" width="600" height="480">
+				<img class="pic_21" data-src="images/grid-boxes.jpg" alt="Grid Boxes" width="600" height="480">
+				<img class="pic_22" data-src="images/silks2.jpg" alt="Silks 2" width="600" height="480">
+			</div>
+		</div>
+		
+    </div>
+</body>
+</html>
